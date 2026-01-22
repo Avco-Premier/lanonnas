@@ -3,8 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LaNonnas Day Pizza & Pasta | East Northport, NY</title>
-    <meta name="description" content="LaNonnas Day Pizza & Pasta in East Northport, NY. Fresh pizza, pasta, and Italian favorites. Dine in or call to order.">
+    <title>La Nonnas Day Pizza & Pasta | East Northport, NY</title>
+    <meta name="description" content="La Nonnas Day (LaNonnas Day) Pizza & Pasta in East Northport, NY. Fresh pizza, pasta, and Italian favorites. Dine in, pickup, or order online.">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "La Nonnas Day Pizza & Pasta",
+      "alternateName": ["LaNonnas Day Pizza & Pasta", "La Nonnas Day", "LaNonnas Day"],
+      "telephone": "+16314861900",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "400 Larkfield Rd",
+        "addressLocality": "East Northport",
+        "addressRegion": "NY",
+        "postalCode": "11731",
+        "addressCountry": "US"
+      }
+    }
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -740,10 +758,10 @@
         }
 
         .fade-up {
-            opacity: 0;
-            transform: translateY(40px);
-            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-        }
+            <a href="#" class="logo">
+                <span class="logo-main">La Nonnas Day</span>
+                <span class="logo-sub">Pizza • Pasta</span>
+            </a>
         .fade-up.visible { opacity: 1; transform: translateY(0); }
         .stagger-1 { transition-delay: 0.1s; }
         .stagger-2 { transition-delay: 0.2s; }
@@ -769,8 +787,11 @@
 
             <nav id="nav">
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#menu">Menu</a></li>
+                <h1 class="""hero-title">La Nonnas<br><em>Day</em></h1>
+                <p class="""hero-tagline">"Pizza, Pasta, and Comfort Classics"</p>
+                <p style="margin-top:-25px; margin-bottom:40px; font-family:'Josefin Sans', sans-serif; letter-spacing:2px; text-transform:uppercase; color:rgba(250,246,240,0.75); font-size:0.75rem;">
+                  Also known as: LaNonnas Day
+                </p>
                     <li><a href="#location">Visit</a></li>
                     <li><a href="tel:6314861900">Call</a></li>
                     <li><a href="https://lanonnasdaypizzapasta.avcoindustries.com/order-now/" class="header-cta">Order Now</a></li>
